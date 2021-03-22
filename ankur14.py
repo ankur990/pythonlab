@@ -1,0 +1,12 @@
+n=int (input ("enter the value"))
+a=0
+b=1
+s=0
+c=1
+print("fibonaaci series:", end = "")
+while(c<=n):
+          print(s,end="")
+c+=1
+a=b
+b=s
+s=a+b
